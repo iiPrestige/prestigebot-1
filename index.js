@@ -371,14 +371,7 @@ if (command === 'invite') {
     })
   }
 Music.start(client, {
-  prefix: "&",
-  maxQueueSize: "100",
-  disableLoop: true,
-  leaveHelp: "Bad help text.",
-  leaveAlt: ["lve","leev","un1c0rns"],
-  helpCmd: 'mhelp',
-  leaveCmd: 'begone',
-  ownerOverMember: true,
+  prefix: ">",
   botOwner: '337343219128074240',
   youtubeKey: 'AIzaSyBs13PG8jLmeL-DWWd34c190Ggi6sl7TP8'
 });
